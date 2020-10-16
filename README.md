@@ -6,7 +6,7 @@ This is Path of Diablo item.filter language support for Microsoft Visual Studio 
 
 ## Windows
 
-Clone the content of this repository and copy the files to the %PROFILE%\.vscode\extensions\pod.item.filter (or just clone the git repository directly to there git clone https://github.com/arsirantala/vscode_pod_language_support.git %PROFILE%\.vscode\extensions\pod.item.filter
+Clone the content of this repository and copy the files to the %PROFILE%\\.vscode\\extensions\\pod.item.filter (or just clone the git repository directly to there git clone https://github.com/arsirantala/vscode_pod_language_support.git %PROFILE%\\.vscode\\extensions\\pod.item.filter
 
 ## Mac OSX
 
