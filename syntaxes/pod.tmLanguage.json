@@ -1,0 +1,37 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Path of Diablo item filter",
+	"patterns": [
+		{
+			"include": "#keywords"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "constant",
+				"match": "\\b(RW|INF|SUP|EXC|ELT|ETH|NORM|NMAG|MAG|ID|SOCK|RARE|SET|EQ1|EQ2|EQ3|EQ4|EQ5|EQ6|ARMOR|WEAPON|RUNENUM|BLUE|CLVL|ILVL|NORM|TABSK0|TABSK1|TABSK2|TABSK3|TABSK34|TABSK24|TABSK50|UNI|WP1|WP2|WP3|WP4|WP5|WP6|WP7|WP8|WP9|WP10|WP11|WP12|WP13|SK274|SK275|SK277|SK278|SK276|SK271|SK272|SK266|SK262|CL1|CL2|SK149|SK154|SK221|SK227|SK237|SK238|SK247|SK250|SK249|SK245|SK244|SK240|SK243|SK238|SK239|SK225|SK119|SK84|SK83|SK83|SK93|RES|DEF|IAS)\\b"
+			},
+			{
+				"name": "keyword.operator.js",
+				"begin": "\\%",
+				"end": "\\%",
+				"match": "\\b(NAME|SOCKETS|CONTINUE|RED|YELLOW|WHITE|GRAY|GOLD|TAN|GREEN|ORANGE|RUNENAME|PURPLE|DGREEN|CODE)\\b"
+			},
+			{
+				"name": "keyword",
+				"match": "\\b(OR|AND)\\b"
+			},
+			{
+				"name": "entity.name.function",
+				"match": "\\b(ItemDisplay)\\b"
+			},
+			{
+				"name": "comment",
+				"begin": "//",
+				"end": "\n"
+			}]
+		}
+	},
+	"scopeName": "source.filter"
+}

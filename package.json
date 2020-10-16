@@ -1,0 +1,25 @@
+{
+    "name": "filter",
+    "displayName": "Path of Diablo item filter",
+    "description": "Path of Diablo item filter file",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "pod",
+            "aliases": ["Path of Diablo item filter", "pod"],
+            "extensions": [".filter"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "pod",
+            "scopeName": "source.filter",
+            "path": "./syntaxes/pod.tmLanguage.json"
+        }]
+    }
+}
